@@ -1,13 +1,16 @@
 # Setup
-title:        Project or Site name
-tagline:      A responsive theme for your project on GitHub Pages
-baseurl:      ""
+title:        琢玉的博客
+tagline:      shillgit.com
+description: > # this means to ignore newlines until "baseurl:"
+  Hi, I'm a System management, 热爱优化系统的高可用性，学习, 目标成为一名系统架构师.
+baseurl:      "https://github.com/shellgithub" # the base hostname & protocol for your site
+
 paginate:     1
 
 # About/contact
-author:
-  name:       Author name
-  url:        http://yourhomepage.com 
+author:       "琢玉"
+  name:       琢玉
+  url:        http://www.shellgit.com
 
 # Gems
 gems:
@@ -15,3 +18,22 @@ gems:
 
 #Others
 markdown: kramdown
+
+# Files/Folders to be excluded from generated _site folder
+exclude:
+  - CNAME
+  - Gemfile
+  - Rakefile
+  - README.md
+  - .gitignore
+  - .sass-cache
+  - Gemfile.lock
+
+
+
+
+
+
+
+
+
